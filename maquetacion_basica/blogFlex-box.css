@@ -1,0 +1,57 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header{
+  border: 3px solid black;
+  background-color: black;
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.divcontenedor{
+
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.href{
+  color: white;
+}
+
+.div{
+
+  border-radius: 4px;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  gap:3%; 
+}
+  h1{
+    margin-bottom: 3%;
+  }
+
+  
+
+.divimg{
+  
+  width: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+
+}
+

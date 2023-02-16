@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.header{
+  border: 3px solid black;
+  background-color: black;
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.href{
+  color: white;
+}
+.imagenes{
+
+  width: 100%;
+  height: 94vh;
+
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+
+.imagenes img{
+
+  width: 33%;
+  height: 47vh;
+
+}
+
