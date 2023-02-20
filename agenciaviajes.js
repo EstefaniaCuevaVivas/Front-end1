@@ -32,8 +32,3 @@ function filtrarDatos(){
 }
 
 
-
-// let mytags = document.getElementsByTagName("form")
-
-// console.log(mytags)
-// console.log(mytags.innerHTML += datos[i])
