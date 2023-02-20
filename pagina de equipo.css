@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-image: url("http://codenotch.com/wp-content/uploads/2021/06/duotone-12@2x-600x167.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2%;
+  gap: 200px;
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.imagenes{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.imagen{
+  width: 25%;
+  display: flex;
+  padding: 30px;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  padding: 15px;
+}
+
+.contenedor{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10%;
+
+
+}
+
+.descripciones{
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  font-size: 20px;
+}
+
+footer{
+  height: 30vh;
+  background-image: url("http://codenotch.com/wp-content/uploads/2021/06/duotone-12@2x-600x167.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding: 10%;
+  
+  
+}

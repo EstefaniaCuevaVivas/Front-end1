@@ -1,0 +1,231 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main{
+
+  height:100vh;
+ 
+}
+
+header{
+
+  background-color: #FDD835  ;
+  color:rgb(141, 23, 23);
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Shantell Sans', cursive;
+  font-family: 'Zeyada', cursive;
+  font-size: 60px;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1%;
+  padding: 40px;
+}
+
+ .logo{
+  width: 5%;
+ 
+}
+
+
+
+
+.imagenfondo{
+  height: 85vh;
+  background-image: url("./equipaje-amarillo-plano-espacio-copia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.fontcolor{
+  color: rgb(155, 50, 50);
+ 
+  
+
+}
+
+#nombre{
+  
+  font-family: 'Zeyada', cursive;
+  font-size: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#descripcion{
+  font-size: 40px;
+  font-style: oblique;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.divtarjetas{
+  width: 80%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px;
+  padding-left: 10%;
+  
+  
+}
+
+.card {
+  width: 15%;
+  height: 25%;
+  position: relative;
+  outline: .5em solid #f5f5f5;
+  background: #ff930f;
+  background: linear-gradient(to top, #ff930f 0%, #fffa5c 100%);
+}
+  
+ 
+ .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+  background-color: rgba(80, 64, 44, 0);
+  transition: background-color 1s;
+ }
+ 
+ .card-info {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding: 1.5em;
+  text-align: center;
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+ }
+ 
+ .card-bio {
+  padding: 1.8em;
+  text-align: center;
+  transform: translate(100%,40%);
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+ }
+ 
+ .card-bio p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5em;
+  color: rgb(124, 15, 15);
+ }
+ 
+ 
+ /*Text*/
+ .title {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: rgb(139, 10, 10);
+ }
+ 
+ .title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  margin: 0 auto 4%;
+  background-color: #000;
+ }
+ 
+ .subtitle {
+  font-weight: 400;
+  line-height: 1em;
+  color:  rgb(88, 19, 19);
+ }
+ 
+ 
+ 
+
+ .card:hover::before {
+  background-color: rgba(80, 64, 44, 0.25);
+ }
+ 
+ .card:hover .card-info {
+  transform: translateX(-100%);
+ }
+ 
+ .card:hover .card-bio {
+  transform: translate(0,40%);
+  opacity: 1;
+ }
+ 
+ 
+ .divform{
+  background: linear-gradient(to top, #ff930f 0%, #fffa5c 100%);
+  color: rgb(126, 34, 34);
+  font-size: x-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+
+ }
+
+ form{
+
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+ }
+
+ .form input{
+  width: 40%;
+  height: 12%;
+  border: 2px solid  rgb(151, 87, 87); 
+  border-radius: 5px;
+ }
+
+ button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: rgb(165, 55, 55);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+ 
+}
+
+button:hover {
+  background-color: rgb(175, 103, 103);
+  box-shadow: 0px 15px 20px brown;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
