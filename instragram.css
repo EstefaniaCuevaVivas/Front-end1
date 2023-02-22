@@ -1,0 +1,203 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.contenedor{
+  width: 100%;
+  height: 90vh;
+  border: 10px solid red;
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+  gap: 5px;
+
+}
+
+.imagenmovil{
+  width: 50%;
+  height: 100%;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.tarjetagrande{
+  width: 55%;
+  height: 100%;
+  border: 3px solid yellow;
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+}
+
+.tarjeta{
+  width: 45%;
+  height: 70%;
+  border: 5px solid purple;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 5px;
+}
+
+.insta{
+ border: 3px solid red;
+ height: 30%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: 'Lobster Two', cursive;
+ font-size: 30px;
+
+}
+
+.form{
+  border: 3px solid orangered;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  padding:7%;
+
+  
+}
+
+.formdentro{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap:3%;
+  font-family: 'Public Sans', sans-serif;
+}
+  .formdentro input{
+    height: 20%;
+    border: 1px solid rgb(235, 227, 227);
+    background-color: rgb(255, 254, 254);
+    border-radius: 2px;
+    padding: 4px;
+    font-family: 'Public Sans', sans-serif;
+  
+  }
+
+  .formdentro button{
+    height: 20%;
+    background-color: rgb(22, 183, 247);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Public Sans', sans-serif;
+    
+  }
+
+  .contenedorlinea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .linea{
+    width: 40%;
+    border-bottom: 4px solid rgba(141, 137, 137, 0.507);
+  }
+
+  .o{
+    color: gray;
+  }
+
+.iniciarsesionfacebook{
+  border: 7px solid rgb(5, 88, 5);
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: bold;
+  
+}
+
+a{
+  color: rgb(4, 4, 156);;
+  text-decoration: none;
+  font-size: bold;
+  font-size: 14px;
+}
+
+.contraseña{
+   color: rgb(15, 15, 180);
+   font-size: 12px;
+   font-family: 'Public Sans', sans-serif;
+}
+
+.registrate{
+  border: 3px solid rgb(3, 3, 88);
+  width:45% ;
+  height:7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Public Sans', sans-serif;
+ 
+}
+
+.descargaaplicacion{
+  border: 3px solid royalblue;
+  width:45% ;
+  height:4%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.iconos{
+  border: 4px solid rgb(156, 11, 35);
+  height: 15%;
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+.iconosdentro{
+  width: 80%;
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+
+.links{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  gap: 30px;
+  
+}
+
+.foot{
+  font-size: 14px;
+  color: grey;
+}
+
+@media screen and( max-with: 910px) {
+
+  .imagenmovil{
+    display: none;
+  }
+  
+
+  
+}
