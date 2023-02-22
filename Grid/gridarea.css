@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contenedor{
+  height: 70vh;
+  width: 70%;
+  display: grid;
+
+  grid-template-areas: 
+  "header header imagen"
+  "naranja naranjaintenso naranjaintenso"
+  "naranja naranjaintenso naranjaintenso"
+  
+  "footer footer footer";
+}
+
+
+.header{
+  
+
+  grid-area: header;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.image{
+  grid-area: imagen;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.fondonaranjaintenso{
+  grid-area: naranjaintenso;
+  background-color: orange;
+  color: white;
+  display: grid;
+  /* grid-template-areas: "contenido" "texto"; */
+  padding: 1%;
+  gap: 4px;
+}
+
+.contenido{
+  border: 2px solid white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.texto{
+  border: 2px solid white;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.fondonaranja{
+
+  grid-area: naranja;
+  background-color: orangered;
+  color: white;
+  display: grid;
+  /* grid-template-areas: "aside"  "aside2"; */
+  padding: 2%;
+  gap: 80px;
+}
+
+
+.aside{
+  
+  background-color: white;
+  color: black;
+  color: orangered;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.aside2{
+ 
+  background-color: white;
+  color: black;
+  color: orangered;
+  font-weight: bold;
+  text-align: center;
+ 
+}
+
+.footer{
+  height: 40%;
+  grid-area: footer;
+  background-color: brown;
+  grid-template-areas: footer;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}

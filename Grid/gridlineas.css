@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 70vh;
+  width: 70%;
+  display: grid;
+  grid-template-columns: [x0]3fr [x1]1fr [x2] ;
+  grid-template-rows: [y0]1fr [y1]7fr [y2]1fr [y3];
+}
+
+.container * {
+  color: white;
+
+}
+
+.header{
+  grid-column: x0/x2;
+  grid-row: y0/y1;
+  background-color: black;
+  text-align: center;
+  padding: 1%;
+
+}
+
+.fondoazul{
+
+  grid-column: x0/x1;
+  grid-row: y1/y2;
+
+  display: grid;
+  grid-template-columns: [ax0]3fr [ax1]2fr [ax2];
+  grid-template-rows: [ay0]2fr [ay1]3fr [ay2];
+  background-color: blue;
+  padding: 1%;
+  gap: 4px;
+  
+}
+
+.contenido{
+  grid-column: ax0/ax2;
+  grid-row: ay0/ay1;
+  border: 1px solid grey;
+  padding: 1%;
+
+}
+
+.tema1{
+  grid-column: ax0/ax1;
+  grid-row: ay1/ay2;
+  border: 1px solid grey;
+  padding: 1%;
+}
+
+.tema2{
+  grid-column: ax1/ax2;
+  grid-row: ay1/ay2;
+  border: 1px solid grey;
+  padding: 1%
+}
+
+.fondoverde{
+
+  grid-column: x1/x2;
+  grid-row: y1/y2;
+  display: grid;
+  grid-template-columns: [gx0]1f [gx1];
+  grid-template-rows: [gy0]2fr [gy1]3f [gy2]2f [gy3] 2fr [gy4];
+  background-color:rgb(28, 223, 141);
+  padding: 7px;
+  gap: 3%;
+  text-align: center;
+  
+
+}
+
+.fondoverde *{
+  border: 2px solid black;
+  background-color: black;
+  padding: 1%;
+}
+
+.menu{
+  
+ background: none;
+  
+}
+
+.fondomorado{
+  grid-column: x0/x2;
+  grid-row: y2/y3 ;
+  display: grid;
+  grid-template-columns: [px0]1fr [px1] 1fr [px2];
+  background-color: blueviolet;
+  padding: 1%;
+  gap: 4px;
+  text-align: center;
+}
+
+.footer{
+  border: 2px solid black;
+  padding: 1%;
+}
+
+.contacto{
+  border: 2px solid black;
+  padding: 1%;
+}
+
