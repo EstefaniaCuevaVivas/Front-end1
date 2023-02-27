@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>movies</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="movies2.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body background="8456421.jpg">
+
+      <nav class="navbar bg-dark " style="height: 90px;">
+        <form class="container-lg justify-content-between" >
+          <button class="btn btn-outline-warning me-2" type="button"> <a class="href" href="imdb.html" title="link" style="color: darkgoldenrod; text-decoration: none;">Home</a></button>
+          <button class="btn btn-outline-warning me-2" type="button" style="color: darkgoldenrod; text-decoration: none;" onclick="showMovies()">Movies</button>
+          <button class="btn btn-outline-warning me-2" type="button"><a class="href" href="profesional.html" title="link2" style="color: darkgoldenrod; text-decoration: none;">Profesional</a></button>
+          
+        </form>
+      </nav>
+
+      <div id="movie" class="row row d-flex container-fluid justify-content-around mt-5">
+
+      </div>
+
+
+<form class="row" style="width: 30%; margin-top: 2%; margin-left: 4%;gap: 5px;">
+
+  <input id="imagen" type="text" style="background-color: rgb(224, 187, 91);" placeholder="Introduzca una imagen">
+  <input id ="titulo" type="text" style="background-color: rgb(224, 187, 91);"  placeholder=" Introduzca un titulo">
+  <input id="año" type="text" style="background-color: rgb(224, 187, 91);" placeholder="Introduzca un año">
+  <input id ="genre" type="text" style="background-color: rgb(224, 187, 91);" placeholder="Introduzca un genero">
+  <button type="button" style="color: white; background-color: black; border-radius: 15%; width: 40%;" onclick="addMovies()">Enviar</button>
+
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
